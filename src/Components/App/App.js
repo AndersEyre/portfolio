@@ -24,7 +24,7 @@ function App() {
         <img  src={require("./Portfolio/Spain cover.jpg")} />
         </div>
         <div className='backgroundImg' id='contact'>
-        <h2></h2>
+        
         <img  src={require("./Portfolio/Once more into the breach.jpg")} />
         </div>
       </header>
