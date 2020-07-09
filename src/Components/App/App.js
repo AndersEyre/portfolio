@@ -11,16 +11,17 @@ function App() {
       <Nav/>
       <header className="App-header">
         <div className='backgroundImg' id="topbackgroundImg">
-          <h1>Anders Eyre</h1>
+          
+          <h1>AE</h1>
         <img  src={require("./Portfolio/dani thump.jpg")} />
         </div>
-        <div className='backgroundImg'>
+        <div className='backgroundImg' id='about'>
         <img  src={require("./Portfolio/Cover photo.jpg")} />
         </div>
-        <div className='backgroundImg'>
+        <div className='backgroundImg' id='projects'>
         <img  src={require("./Portfolio/Spain cover.jpg")} />
         </div>
-        <div className='backgroundImg'>
+        <div className='backgroundImg' id='contact'>
         <img  src={require("./Portfolio/Once more into the breach.jpg")} />
         </div>
       </header>

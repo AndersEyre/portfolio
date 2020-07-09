@@ -7,17 +7,21 @@ export class Nav extends React.Component {
         return (
             <nav id='navbar'>
                 <ul className='navbar'>
+                    <div id="logo">
+                        
+                        <li >Anders Eyre</li>
+                    </div>
                     <div>
                         <img src={require("./about.png")}/>
-                        <li><a href="">About</a></li>
+                        <li><a href="#about">About</a></li>
                     </div>
                     <div>
                         <img src={require("./projects.png")}/>
-                        <li><a href="">Projects</a></li>
+                        <li><a href="#projects">Projects</a></li>
                     </div>
                     <div>
                         <img src={require("./contact.png")}/>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </div>
                 </ul>
             </nav>
