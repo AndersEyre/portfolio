@@ -12,7 +12,9 @@ function App() {
       <header className="App-header">
         <div className='backgroundImg' id="topbackgroundImg">
           
-          <h1>AE</h1>
+          <h1 >AE</h1>
+          <p style={{fontWeight:"bold", fontSize: 17, color:'white'}}>Development Done Differently.</p>
+          <p >Development Done Differently.</p>
         <img  src={require("./Portfolio/dani thump.jpg")} />
         </div>
         <div className='backgroundImg' id='about'>
@@ -22,6 +24,7 @@ function App() {
         <img  src={require("./Portfolio/Spain cover.jpg")} />
         </div>
         <div className='backgroundImg' id='contact'>
+        <h2></h2>
         <img  src={require("./Portfolio/Once more into the breach.jpg")} />
         </div>
       </header>
