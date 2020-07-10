@@ -13,7 +13,12 @@ function App() {
         <div className='backgroundImg' id="topbackgroundImg">
           
           <h1 >AE</h1>
-          <p style={{fontWeight:"bold", fontSize: 17, color:'white'}}>Development Done Differently.</p>
+          <p style={{
+            fontSize: 18,
+            color: 'black',
+            left: 634,
+          }
+          }>Development Done Differently.</p>
           <p >Development Done Differently.</p>
         <img  src={require("./Portfolio/dani thump.jpg")} />
         </div>
