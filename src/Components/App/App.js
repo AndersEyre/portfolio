@@ -1,6 +1,6 @@
 import React from 'react';
 
-import nav, { Nav } from '../Nav/nav';
+import { Nav } from '../Nav/nav';
 import './App.css';
 import '../Nav/nav.css';
 
@@ -20,17 +20,16 @@ function App() {
           }
           }>Development Done Differently.</p>
           <p >Development Done Differently.</p>
-        <img  src={require("./Portfolio/dani thump.jpg")} />
+          <img  src={require("./Portfolio/dani thump.jpg")} alt='background'/>
         </div>
         <div className='backgroundImg' id='about'>
-        <img  src={require("./Portfolio/Cover photo.jpg")} />
+          <img  src={require("./Portfolio/Cover photo.jpg")} alt='background'/>
         </div>
         <div className='backgroundImg' id='projects'>
-        <img  src={require("./Portfolio/Spain cover.jpg")} />
+          <img  src={require("./Portfolio/Spain cover.jpg")} alt='background'/>
         </div>
         <div className='backgroundImg' id='contact'>
-        
-        <img  src={require("./Portfolio/Once more into the breach.jpg")} />
+          <img  src={require("./Portfolio/Once more into the breach.jpg")} alt='background' />
         </div>
       </header>
     </div>

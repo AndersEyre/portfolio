@@ -12,15 +12,15 @@ export class Nav extends React.Component {
                         <li >Anders Eyre</li>
                     </div>
                     <div>
-                        <img src={require("./about.png")}/>
+                        <img src={require("./about.png")} alt='icon'/>
                         <li><a href="#about">About</a></li>
                     </div>
                     <div>
-                        <img src={require("./projects.png")}/>
+                        <img src={require("./projects.png")} alt='icon'/>
                         <li><a href="#projects">Projects</a></li>
                     </div>
                     <div>
-                        <img src={require("./contact.png")}/>
+                        <img src={require("./contact.png")} alt='icon'/>
                         <li><a href="#contact">Contact</a></li>
                     </div>
                 </ul>
