@@ -7,31 +7,29 @@ import '../Nav/nav.css';
 function App() {
   return (
     
-    <div className="App">
+    <div>
       <Nav/>
-      <header className="App-header">
-        <div className='backgroundImg' id="topbackgroundImg">
-          
-          <h1 >AE</h1>
-          <p style={{
-            fontSize: 18,
-            color: 'black',
-            left: 634,
-          }
-          }>Development Done Differently.</p>
-          <p >Development Done Differently.</p>
-          <img  src={require("./Portfolio/dani thump.jpg")} alt='background'/>
+      <div className='app'>
+        
+        <div className='background-img' id='top-background-img'>  
+          <h1>AE</h1>
+          <p>Development Done Differently.</p>
+          <img src={require('./Portfolio/dani thump.jpg')} alt='background'/>
         </div>
-        <div className='backgroundImg' id='about'>
-          <img  src={require("./Portfolio/Cover photo.jpg")} alt='background'/>
+
+        <div className='background-img' id='about'>
+          <img src={require('./Portfolio/Cover photo.jpg')} alt='background'/>
         </div>
-        <div className='backgroundImg' id='projects'>
-          <img  src={require("./Portfolio/Spain cover.jpg")} alt='background'/>
+
+        <div className='background-img' id='projects'>
+          <img src={require('./Portfolio/Spain cover.jpg')} alt='background'/>
         </div>
-        <div className='backgroundImg' id='contact'>
-          <img  src={require("./Portfolio/Once more into the breach.jpg")} alt='background' />
+
+        <div className='background-img' id='contact'>
+          <img src={require('./Portfolio/Once more into the breach.jpg')} alt='background' />
         </div>
-      </header>
+
+      </div>
     </div>
   );
 }
@@ -40,9 +38,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    document.getElementById('nav-bar').style.top = '0';
   } else {
-    document.getElementById("navbar").style.top = "-60px";
+    document.getElementById('nav-bar').style.top = '-60px';
   }
   prevScrollpos = currentScrollPos;
 }

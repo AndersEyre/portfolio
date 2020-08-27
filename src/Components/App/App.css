@@ -1,10 +1,6 @@
-.App {
+
+.app {
   text-align: center;
-}
-
-
-
-.App-header {
   background-color: white;
   min-height: 2000px;
   display: flex;
@@ -16,7 +12,7 @@
 }
 
 
-.backgroundImg{
+.background-img {
   display: flex;
   height: 100vh;
   max-width: 100%;
@@ -26,7 +22,7 @@
   ;
 }
 
-.backgroundImg h1{
+.background-img h1 {
   position: absolute;
   display:flex;
   z-index: 10;
@@ -39,13 +35,13 @@
   
 }
 
-.backgroundImg p{
+.background-img p {
   position: absolute;
   display:flex;
   z-index: 10;
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  box-shadow: black;
+  text-shadow: 2px 2px 2px black;
   top: 520px;
   color: white;
   
@@ -53,7 +49,7 @@
 
 
 
-.backgroundImg img{
+.background-img img {
 
   width: 100%;
   height: 100vh;
@@ -63,7 +59,7 @@
 
 
 
-#topbackgroundImg{
+#top-background-img {
   margin-top: 60px;
   
 }

@@ -1,4 +1,4 @@
-nav{
+nav {
     position: fixed;
     height: 20px;
     background-color: white;
@@ -9,41 +9,45 @@ nav{
     transition: top 0.3s;
     top: 0;
     opacity: 0.8;
-    
-}
-
-.navbar,.navbar div{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.navbar{
+.nav-bar, .nav-bar div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar {
     margin-right: 40px;
 }
 
-img{
+img {
     height: 20px
 }
 
-li{
+li {
     padding: 20px 20px 20px 10px;
     
 
     
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
     text-shadow: rgb(red, green, blue);
     opacity: 1;
     
 }
+
 a:hover {
     color: rgb(156, 156, 156);
-  }
+}
 
-#logo{
+#logo {
     top: 0px;
     left: 10px;
     position: absolute;
