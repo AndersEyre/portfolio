@@ -12,7 +12,7 @@ export class ProjectList extends React.Component {
                   this.props.projects.map(project => {
                       return <Project key={project.id} project={project}/>
                   })
-              };
+              }
             </div>
 
         );

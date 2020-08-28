@@ -1,8 +1,9 @@
 .project-list{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    width: 90%;
     height: 100vh;
 
 }
