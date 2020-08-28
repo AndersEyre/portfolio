@@ -18,10 +18,12 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 }
 
 .nav-bar {
     margin-right: 40px;
+    
 }
 
 img {
