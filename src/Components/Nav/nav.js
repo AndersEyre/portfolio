@@ -11,18 +11,27 @@ export class Nav extends React.Component {
                         
                         <li >Anders Eyre</li>
                     </div>
-                    <div>
-                        <img src={require('./about.png')} alt='icon'/>
-                        <li><a href='#about'>About</a></li>
-                    </div>
-                    <div>
-                        <img src={require('./projects.png')} alt='icon'/>
-                        <li><a href='#projects'>Projects</a></li>
-                    </div>
-                    <div>
-                        <img src={require('./contact.png')} alt='icon'/>
-                        <li><a href='#contact'>Contact</a></li>
-                    </div>
+
+                    <a href='#about'>
+                        <div>
+                          <img src={require('./about.png')} alt='icon'/>
+                          <li>About</li>
+                      </div>
+                    </a>
+
+                    <a href='#projects'>
+                        <div>
+                          <img src={require('./projects.png')} alt='icon'/>
+                          <li>Projects</li>
+                      </div>
+                    </a>
+
+                    <a href='#contact'> 
+                      <div>
+                          <img src={require('./contact.png')} alt='icon'/>
+                          <li>Contact</li>
+                      </div>
+                    </a>
                 </ul>
             </nav>
         )

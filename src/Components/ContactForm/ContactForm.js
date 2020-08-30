@@ -6,7 +6,7 @@ export class ContactForm extends React.Component {
 
     render() {
         return (
-            <form id='contact-form'>
+            <form id='contact'>
                 <h1>Contact</h1>
                 <div className='form-group'>
                     <label for='name'>Name</label><br></br>

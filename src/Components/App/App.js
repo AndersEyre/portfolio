@@ -4,6 +4,7 @@ import { Nav } from '../Nav/nav';
 import { ProjectList } from '../ProjectList/projectList'
 import './App.css';
 import '../Nav/nav.css';
+import { ContactForm } from '../ContactForm/ContactForm';
 
 class App extends React.Component {
   constructor(props){
@@ -31,27 +32,7 @@ class App extends React.Component {
           codepen: 'https://codepen.io/',
           github: 'https://github.com/',
         },
-        {
-          id: 4,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
-          codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
-        },
-        {
-          id: 5,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
-          codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
-        },
-        {
-          id: 6,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
-          codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
-        }
+        
       ]
     };
   
@@ -60,30 +41,23 @@ class App extends React.Component {
   
   render(){
     return (
-      <div>
-        <Nav/>
-        <div className='app'>
-          
-          <div className='background-img' id='top-background-img'>  
+      <div className='app'>
+          <Nav/>
+
+          <div className='background-img'>  
             <h1>AE</h1>
             <p>Development Done Differently.</p>
             <img src={require('./Portfolio/dani thump.jpg')} alt='background'/>
           </div>
 
-          <div className='project-section' id='projects'>
-            <ProjectList projects={this.state.projects}/>
-          </div>
+          <ProjectList projects={this.state.projects}/>
 
-          <div  id='about'>
-            
-          </div>
+          <ContactForm/>
 
-          <div  id='contact'>
-            
-          </div>
+        
 
         </div>
-      </div>
+      
     );
   }
 }

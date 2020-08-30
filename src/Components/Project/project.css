@@ -4,12 +4,15 @@
     border-style: 1px line black;
     border-radius: 5%;
     background-color: rgb(30, 73, 90);
-    width: 350px;
-    height: 270px;
-    margin: 20px 40px;
+    width: 30%;
+    height: 35%;
+    margin: 20px 1%;
     border: solid #000;
     border-width: 2px;
     box-shadow: 0px 2px  black;
+    min-width: 300px;
+    min-height: 200px;
+
 }
 
 .img-container img{
@@ -19,7 +22,7 @@
 }
 
 .project h1{
-    font-size: 27px;
+    font-size: 90%;
     padding: 5px 5px 5px 5px;
     margin: 2px;
 }
@@ -27,9 +30,10 @@
 .project h3{
     font-weight: 550;
     display: inline-block;
-    font-size: 15px;
+    font-size: 80%;
     padding: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
+    
 
 }
 
