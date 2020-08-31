@@ -8,7 +8,6 @@ export class Nav extends React.Component {
             <nav id='nav-bar'>
                 <ul className='nav-bar'>
                     <div id='logo'>
-                        
                         <li >Anders Eyre</li>
                     </div>
 

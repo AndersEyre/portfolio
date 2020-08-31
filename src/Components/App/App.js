@@ -44,7 +44,7 @@ class App extends React.Component {
       <div className='app'>
           <Nav/>
 
-          <div className='background-img'>  
+          <div className='background-img' id='about'>  
             <h1>AE</h1>
             <p>Development Done Differently.</p>
             <img src={require('./Portfolio/dani thump.jpg')} alt='background'/>
@@ -68,7 +68,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById('nav-bar').style.top = '0px';
   } else {
-    document.getElementById('nav-bar').style.top = '-60px';
+    document.getElementById('nav-bar').style.top = '-240px';
   }
   prevScrollpos = currentScrollPos;
 }

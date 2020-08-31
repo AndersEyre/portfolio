@@ -29,7 +29,7 @@
 .background-img h1 {
   position: absolute;
   display:flex;
-  z-index: 10;
+  z-index: 9;
   font-size: 100px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: black;
@@ -43,15 +43,13 @@
   position: absolute;
   top: 80%;
   display:flex;
-  z-index: 10;
+  z-index: 9;
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px 2px 2px black;
   color: white;
   
 }
-
-
 
 .background-img img {
 
@@ -60,10 +58,6 @@
   object-fit: cover;
   
 }
-
-
-
-
 
 .project-section{
   display: flex;
