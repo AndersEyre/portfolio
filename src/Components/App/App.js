@@ -47,7 +47,6 @@ class App extends React.Component {
           <div className='background-img' id='about'>  
             <div className='about-image'>
               <img src={require('./Portfolio/stockholm-2.jpg')} alt='background'/>
-              <div class="block"></div>
             </div>
             <div className='greeting'>
               <h1>WHATS UP!!</h1>
@@ -56,6 +55,7 @@ class App extends React.Component {
           </div>
 
           <ProjectList projects={this.state.projects}/>
+
 
           <ContactForm/>
 
