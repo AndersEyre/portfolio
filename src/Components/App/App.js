@@ -45,9 +45,14 @@ class App extends React.Component {
           <Nav/>
 
           <div className='background-img' id='about'>  
-            <h1>AE</h1>
-            <p>Development Done Differently.</p>
-            <img src={require('./Portfolio/dani thump.jpg')} alt='background'/>
+            <div className='about-image'>
+              <img src={require('./Portfolio/stockholm-2.jpg')} alt='background'/>
+              <div class="block"></div>
+            </div>
+            <div className='greeting'>
+              <h1>WHATS UP!!</h1>
+              <p>My name is Anders Eyre and im a developer from Melbourne Australia.</p>
+            </div>
           </div>
 
           <ProjectList projects={this.state.projects}/>
