@@ -1,4 +1,33 @@
 .contact {
+    width: 100%;
     display: flex;
-    flex-flow: column wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    align-self: flex-end;
+}
+
+p {
+    font-size: 20px;
+    text-align-last: left;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 970px){
+    .contact{
+        flex-direction: column-reverse;
+    }
+
+    form{
+        margin: auto;
+        min-width: 350px;
+    }
+
+    .contact-info {
+        align-self: center;
+        margin-top: 20px;
+        margin-right: 200px;
+    }
 }
