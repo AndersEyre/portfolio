@@ -3,12 +3,11 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 34%;
-    margin-top: 50px;
+    width: 45%;
     border-radius: 5%;
-    margin-bottom: 20px;
     color: white;
-    min-width: 200px;
+    max-width: 400px;
+    min-width: 300px;
 }
 
 

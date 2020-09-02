@@ -1,21 +1,23 @@
-.projects{
+.projects {
     display: flex;
     flex-direction: column;
 }
 
-.project-list{
+.project-list {
     align-items: center;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
 }
 
-.projects h1{
-    font-size: 100%;
+.projects h1 {
     color: white;
     font-weight: bold;
 }
 
+#projects-header {
+    font-size: 35px;
+}
 
 
 @media screen and (max-width: 977px) {

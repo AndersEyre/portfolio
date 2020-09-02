@@ -26,14 +26,12 @@
 }
 
 .background-img h1 {
+  font-size: 25px;
   font-weight: bold;
 }
 
-.background-img p {
-  font-size: 20px;
-}
-
 .greeting{
+  font-size: 20px;
   width: 50%;
   background-color: rgb(30, 73, 90);
   height: 100vh;
@@ -41,7 +39,12 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  
+  min-width: 200px;
+}
+
+.resume{
+  border: 1px solid black;
+  border-radius: 5%;
 }
 
 .background-img img {
@@ -55,9 +58,18 @@
 }
 
 @media screen and (max-width: 650px){
-  .about-image{
-    display: block;
+  .background-img{
+    flex-flow: column;
   }
+  .about-image, .greeting {
+    width: 100%;
+  }
+  
+}
+
+.resume:hover{
+  background-color: white;
+  color: black;
 }
 
 
