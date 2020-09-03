@@ -1,10 +1,8 @@
 import React from 'react';
-
-import { Nav } from '../Nav/nav';
-import { ProjectList } from '../ProjectList/projectList'
-import './App.css';
-import '../Nav/nav.css';
-import { Contact } from '../Contact/contact';
+import { Nav } from './nav';
+import { ProjectList } from './projectList'
+import { Contact } from './contact';
+import '../Styles/App/App.css';
 
 class App extends React.Component {
   constructor(props){
@@ -45,7 +43,7 @@ class App extends React.Component {
         <Nav/>
         <div className='about-section' id='about'>  
           <div className='about-image'>
-            <img src={require('./Images/Stockholm-small.jpg')} alt='background'/>
+            <img src={require('../Styles/App/Images/Stockholm-small.jpg')} alt='background'/>
           </div>
           <div className='greeting'>
             <h1>Greetings Friend!</h1>

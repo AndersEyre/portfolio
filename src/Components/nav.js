@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/Nav/nav.css';
 
 export class Nav extends React.Component {
    
@@ -13,21 +14,21 @@ export class Nav extends React.Component {
 
                     <a href='#about'>
                         <div>
-                          <img src={require('./about.png')} alt='icon'/>
+                          <img src={require('../Styles/Nav/Images/about.png')} alt='icon'/>
                           <li>About</li>
                       </div>
                     </a>
 
                     <a href='#projects'>
                         <div>
-                          <img src={require('./projects.png')} alt='icon'/>
+                          <img src={require('../Styles/Nav/Images/projects.png')} alt='icon'/>
                           <li>Projects</li>
                       </div>
                     </a>
 
                     <a href='#contact'> 
                       <div>
-                          <img src={require('./contact.png')} alt='icon'/>
+                          <img src={require('../Styles/Nav/Images/contact.png')} alt='icon'/>
                           <li>Contact</li>
                       </div>
                     </a>

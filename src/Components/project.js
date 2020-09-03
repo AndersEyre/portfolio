@@ -1,5 +1,5 @@
 import React from 'react';
-import './project.css'
+import '../Styles/Project/project.css'
 
 function coinToss () {
     return Math.random() < 0.5 ? 'heads' : 'tails';

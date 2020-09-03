@@ -1,6 +1,6 @@
 import React from 'react'; 
-import {Project} from '../Project/project';
-import './projectList.css';
+import {Project} from './project';
+import '../Styles/ProjectList/projectList.css';
 
 
 export class ProjectList extends React.Component {
