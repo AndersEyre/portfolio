@@ -7,9 +7,9 @@ export class ProjectList extends React.Component {
 
     render(){
         return(
-            <section className='projects'>
+            <section className='projects' id='projects'>
                 <h1 id='projects-header'> Projects Iv Built </h1>
-                <div className="project-list" id='projects'> 
+                <div className="project-list" > 
                   {
                     this.props.projects.map(project => {
                         return <Project key={project.id} project={project}/>

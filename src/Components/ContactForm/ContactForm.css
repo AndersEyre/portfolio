@@ -17,7 +17,8 @@ form {
     margin: 8px;
 }
 
-h1 {
+form h1 {
+    font-weight: bold;
     padding: 6% 0%;
 }
 

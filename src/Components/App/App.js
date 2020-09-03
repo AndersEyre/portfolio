@@ -41,34 +41,24 @@ class App extends React.Component {
   
   render(){
     return (
-      <div className='app'>
+      <main className='app'>
         <Nav/>
-        <div className='background-img' id='about'>  
+        <div className='about-section' id='about'>  
           <div className='about-image'>
-            <img src={require('./Images/Stockholm-3.jpg')} alt='background'/>
+            <img src={require('./Images/Stockholm-small.jpg')} alt='background'/>
           </div>
           <div className='greeting'>
             <h1>Greetings Friend!</h1>
             <p>Im Anders Eyre. <br/> A developer based in Melbourne, Australia.</p>
-            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noopener noreferrer"><p className='resume'>Resume</p></a>
+            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
         <ProjectList projects={this.state.projects}/>
         <Contact/>
-      </div>   
+      </main>   
     );
   }
 }
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById('nav-bar').style.top = '0px';
-  } else {
-    document.getElementById('nav-bar').style.top = '-240px';
-  }
-  prevScrollpos = currentScrollPos;
-}
 
 export default App;
