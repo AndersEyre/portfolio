@@ -19,11 +19,11 @@
 }
 
 @media screen and (max-width: 970px){
-    .contact{
+    .contact {
         flex-direction: column-reverse;
     }
 
-    form{
+    form {
         margin: 0px 0px 0px 0px;
         min-width: 350px;
         
@@ -32,6 +32,8 @@
     .contact-info {
         align-self: center;
         margin-top: 20px;
-        margin-right: 200px;
+        margin-right: 180px;
+        
+        
     }
 }

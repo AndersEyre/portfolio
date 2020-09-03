@@ -30,7 +30,7 @@
   font-weight: bold;
 }
 
-.greeting{
+.greeting {
   font-size: 20px;
   width: 50%;
   background-color: rgb(30, 73, 90);
@@ -42,7 +42,7 @@
   min-width: 200px;
 }
 
-.resume{
+.resume {
   border: 1px solid black;
   border-radius: 5%;
 }
@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 650px){
-  .background-img{
+  .background-img {
     flex-flow: column;
   }
   .about-image, .greeting {
@@ -67,7 +67,7 @@
   
 }
 
-.resume:hover{
+.resume:hover {
   background-color: white;
   color: black;
 }

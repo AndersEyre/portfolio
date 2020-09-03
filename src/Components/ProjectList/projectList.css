@@ -21,7 +21,7 @@
 
 
 @media screen and (max-width: 977px) {
-    .project-list{
+    .project-list {
         flex-direction: column;
     }
   }
