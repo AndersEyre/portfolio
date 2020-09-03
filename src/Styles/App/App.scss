@@ -1,0 +1,90 @@
+
+$FirstColor: rgb(66, 114, 133);
+$SecColor: rgb(30, 73, 90);
+$FontColor: white;
+
+@mixin flexCenter ($flexDirection) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: $flexDirection;
+}
+
+.app {
+  text-align: center;
+  background-color: $FirstColor;
+  font-size: calc(10px + 2vmin);
+
+  @include flexCenter(column);
+}
+
+.about-section { 
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+
+  @include flexCenter(row);
+
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  h1, p {
+    color: $FontColor;
+    padding: 20px 100px;
+  }
+
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+}
+
+.greeting {
+  font-size: 20px;
+  width: 50%;
+  background-color: $SecColor;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.resume {
+  border: 1px solid black;
+  border-radius: 5%;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .about-section {
+    flex-flow: column;
+  }
+  .about-image, .greeting {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+

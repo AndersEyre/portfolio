@@ -1,0 +1,79 @@
+@import '../App/App.scss';
+
+html {
+    scroll-behavior: smooth;
+  }
+
+nav {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    min-height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    transition: top 0.6s;
+    top: 0;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+}
+
+.nav-bar {
+    margin-right: 40px;
+    @include flexCenter(row);
+
+    img {
+        height: 20px;
+        padding: 3px;
+        background-color: white;
+        border-radius: 40%;
+    }
+
+    div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+li {
+    padding: 20px 20px 20px 10px;
+}
+
+a {
+    color: $FontColor;
+    text-decoration: none;
+
+
+    &:hover {
+        color: lightgrey;
+    }
+}
+
+
+#logo {
+    color: $FontColor;
+    left: 20px;
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+@media screen and (max-width: 650px) {
+    #logo {
+        position: relative;
+        
+    }
+    .nav-bar {
+        flex-direction: column;
+        margin: auto; 
+    }
+    li{
+        padding:15px ;
+    }
+}
+
+

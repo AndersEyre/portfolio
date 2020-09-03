@@ -1,0 +1,35 @@
+form {
+  background-color: #1e495a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  border-radius: 5%;
+  color: white;
+  max-width: 400px;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+form h1 {
+  font-weight: bold;
+  padding: 6% 0%;
+}
+
+.form-control {
+  width: 70%;
+  margin: 8px;
+}
+
+button {
+  margin: 10% 30%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=contactForm.css.map */

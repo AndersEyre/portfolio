@@ -1,0 +1,30 @@
+form {
+    background-color: rgb(30, 73, 90);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    border-radius: 5%;
+    color: white;
+    max-width: 400px;
+    min-width: 300px;
+    margin-right: 20px;
+
+    h1 {
+        font-weight: bold;
+        padding: 6% 0%;
+    }
+}
+
+.form-control {
+    width: 70%;
+    margin: 8px;
+}
+
+button {
+    margin:10% 30%;
+    cursor: pointer;
+}
+
+
+
