@@ -1,7 +1,7 @@
 
 $FirstColor: rgb(66, 114, 133);
 $SecColor: rgb(30, 73, 90);
-$FontColor: white;
+$TextColor: white;
 
 @mixin flexCenter ($flexDirection) {
   display: flex;
@@ -9,6 +9,7 @@ $FontColor: white;
   align-items: center;
   flex-flow: $flexDirection;
 }
+
 
 .app {
   text-align: center;
@@ -26,13 +27,16 @@ $FontColor: white;
 
   @include flexCenter(row);
 
+  
+  
+
   h1 {
     font-size: 25px;
     font-weight: bold;
   }
 
   h1, p {
-    color: $FontColor;
+    color: $TextColor;
     padding: 20px 100px;
   }
 

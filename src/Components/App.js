@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav } from './nav';
 import { ProjectList } from './projectList'
 import { Contact } from './contact';
+import { Footer } from './footer'
 import '../Styles/App/App.css';
 
 class App extends React.Component {
@@ -36,6 +37,7 @@ class App extends React.Component {
   
   }
 
+
   
   render(){
     return (
@@ -53,7 +55,9 @@ class App extends React.Component {
         </div>
         <ProjectList projects={this.state.projects}/>
         <Contact/>
+        <Footer/>
       </main>   
+      
     );
   }
 }

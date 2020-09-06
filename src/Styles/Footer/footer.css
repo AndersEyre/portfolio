@@ -102,41 +102,13 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-nav {
-  position: fixed;
-  background-color: black;
-  width: 100%;
-  min-height: 80px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
-  -webkit-transition: top 0.6s;
-  transition: top 0.6s;
-  top: 0;
-  opacity: 0.8;
+footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 10;
-}
-
-.nav-bar {
-  margin-right: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -144,62 +116,44 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
+  background-color: #1e495a;
+  color: white;
+  min-height: 100px;
+  width: 100%;
 }
 
-.nav-bar img {
-  height: 20px;
-  padding: 3px;
-  background-color: white;
-  border-radius: 40%;
+footer p {
+  margin: 30px 50px;
 }
 
-.nav-bar div {
+.social-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 30px 100px;
 }
 
-nav li {
-  padding: 20px 20px 20px 10px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: lightgrey;
-}
-
-#logo {
-  color: white;
-  left: 20px;
-  position: absolute;
+.social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  border-radius: 50%;
+  height: 1.875rem;
+  position: relative;
   text-align: center;
-  font-size: 25px;
-  letter-spacing: 8px;
+  margin: 0px 4px;
+  width: 1.875rem;
+  padding: 5px;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 650px) {
-  #logo {
-    position: relative;
-  }
-  .nav-bar {
+@media screen and (max-width: 880px) {
+  footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto;
-  }
-  li {
-    padding: 15px;
   }
 }
-/*# sourceMappingURL=nav.css.map */
+/*# sourceMappingURL=footer.css.map */

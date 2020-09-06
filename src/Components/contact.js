@@ -8,8 +8,7 @@ export class Contact extends React.Component {
         return(
             <section className='contact'>
               <div className='contact-info'>
-                <p>Contact me: <br/> 1233341545 <br/> 36 chapel st <br/>
-                Prahan </p>
+                <p> Thanks for your interest <br/>If you want to make some magic just shoot me a message and ill get back to you on the double. </p>
               </div>
               <ContactForm/>
             </section>

@@ -38,12 +38,12 @@ nav {
     }
 }
 
-li {
+nav li {
     padding: 20px 20px 20px 10px;
 }
 
 a {
-    color: $FontColor;
+    color: $TextColor;
     text-decoration: none;
 
 
@@ -54,7 +54,7 @@ a {
 
 
 #logo {
-    color: $FontColor;
+    color: $TextColor;
     left: 20px;
     position: absolute;
     text-align: center;
