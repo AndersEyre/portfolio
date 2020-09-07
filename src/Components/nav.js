@@ -20,10 +20,12 @@ export class Nav extends React.Component {
   }
 
   componentDidMount() {
+    console.log('mount')
     window.addEventListener('scroll', this.handleScroll, true);
   }
 
   componentWillUnmount() {
+    console.log('unmount')
     window.removeEventListener('scroll', this.handleScroll);
   }
 

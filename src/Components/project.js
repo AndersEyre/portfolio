@@ -13,10 +13,14 @@ const pics = {
 export class Project extends React.Component {
 
     render() {
+
+        let catDog = coinToss() === 'heads' ? pics['kitty'] : pics['doggo'];
+
+
         return (
             <div className='project'>
                 <div className='img-container'>
-                    <img src={coinToss() === 'heads' ? pics['kitty'] : pics['doggo']} alt='project-img'></img>
+                    <img src={catDog} alt='project-img'></img>
                 </div>
                 <h1>{this.props.project.name}</h1>
                 <h3><a href={this.props.project.codepen} target='_blank' rel='noopener noreferrer'>CodePen</a></h3>

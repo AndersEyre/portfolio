@@ -1,9 +1,12 @@
 import React from 'react';
-import { Nav } from './nav';
-import { ProjectList } from './projectList'
-import { Contact } from './contact';
-import { Footer } from './footer'
-import '../Styles/App/App.css';
+import { Nav } from './Nav';
+import { ProjectList } from './ProjectList'
+import { Contact } from './Contact';
+import { Footer } from './Footer'
+
+import '../Styles/App/app.css';
+
+import Pdf from '../Styles/App/Resume.pdf';
 
 class App extends React.Component {
   constructor(props){
@@ -32,9 +35,19 @@ class App extends React.Component {
           github: 'https://github.com/',
         },
         
-      ]
+      ],
+
+      kanyeQuote: [],
     };
-  
+  }
+
+  componentDidMount(){
+    fetch('https://api.kanye.rest/')
+    .then(res => res.json())
+    .then((data) => {
+      this.setState({ kanyeQuote: data})
+    })
+    .catch(console.log)
   }
 
 
@@ -49,8 +62,8 @@ class App extends React.Component {
           </div>
           <div className='greeting'>
             <h1>Greetings Friend!</h1>
-            <p>Im Anders Eyre. <br/> A developer based in Melbourne, Australia.</p>
-            <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
+            <p> {this.state.kanyeQuote.quote} {/*Im Anders Eyre. <br/> A developer based in Melbourne, Australia.*/}</p>
+            <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
         <ProjectList projects={this.state.projects}/>
