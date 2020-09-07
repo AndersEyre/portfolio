@@ -1,3 +1,5 @@
+@import '../App/App.scss';
+
 form {
     background-color: rgb(30, 73, 90);
     display: flex;
@@ -8,12 +10,28 @@ form {
     color: white;
     max-width: 400px;
     min-width: 300px;
-    margin: 0px 50px;
+    margin: auto;
 
     h1 {
         font-weight: bold;
         padding: 6% 0%;
+        letter-spacing: 3px;
     }
+
+    button {
+        background-color: $FirstColor;
+        color: $TextColor;
+        border: 1px solid black;
+        border-radius: 5%;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-weight: bold;
+      
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
 }
 
 .form-control {

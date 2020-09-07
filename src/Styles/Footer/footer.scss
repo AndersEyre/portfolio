@@ -1,6 +1,6 @@
 @import '../App/App.scss';
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,28 +12,21 @@ footer{
     min-height: 100px;
     width: 100%;
 
-    p{
+    p {
         margin: 30px 50px;
+    }
+
+    img {
+        width: 50px;
+        padding: 0px 5px;
+        z-index: 10px;
+        margin: auto 8px;
     }
 }
 
 .social-group {
     display: flex;
-    margin: 30px 100px;
-}
-
-
-.social-link {
-    display:flex;
-    background-color: #000;
-    border-radius: 50%;
-    height: 1.875rem;
-    position: relative;
-    text-align: center;
-    margin: 0px 4px;
-    width: 1.875rem;
-    padding: 5px;
-    cursor: pointer;
+    margin: 20px 100px;
 }
 
 @media screen and (max-width: 880px) {

@@ -1,3 +1,106 @@
+.app {
+  text-align: center;
+  background-color: #427285;
+  font-size: calc(10px + 2vmin);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.about-section {
+  min-height: 100vh;
+  max-width: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.about-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.about-section h1, .about-section p {
+  color: white;
+  padding: 20px 100px;
+}
+
+.about-section img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.greeting {
+  width: 50%;
+  background-color: #1e495a;
+  height: 100vh;
+  min-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.resume {
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.resume:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .about-image, .greeting {
+    width: 100%;
+  }
+}
+
 form {
   background-color: #1e495a;
   display: -webkit-box;
@@ -15,12 +118,28 @@ form {
   color: white;
   max-width: 400px;
   min-width: 300px;
-  margin: 0px 50px;
+  margin: auto;
 }
 
 form h1 {
   font-weight: bold;
   padding: 6% 0%;
+  letter-spacing: 3px;
+}
+
+form button {
+  background-color: #427285;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: white;
+  color: black;
 }
 
 .form-control {

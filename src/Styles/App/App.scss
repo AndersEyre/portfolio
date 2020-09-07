@@ -31,7 +31,7 @@ $TextColor: white;
   
 
   h1 {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
   }
 
@@ -49,15 +49,13 @@ $TextColor: white;
 }
 
 .greeting {
-  font-size: 20px;
+  
   width: 50%;
   background-color: $SecColor;
   height: 100vh;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
   min-width: 200px;
+
+  @include flexCenter(column);
 }
 
 .about-image {
@@ -67,12 +65,14 @@ $TextColor: white;
 .resume {
   border: 1px solid black;
   border-radius: 5%;
+  
 
   &:hover {
     background-color: white;
     color: black;
   }
 }
+
 
 @media screen and (max-width: 650px){
   .about-section {

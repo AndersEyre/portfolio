@@ -7,7 +7,7 @@ export class ContactForm extends React.Component {
     render() {
         return (
             <form id='contact'>
-                <h1>Contact</h1>
+                <h1>Got An Idea?</h1>
                 <div className='form-group'>
                     <label htmlFor='name'>Name</label><br></br>
                     <input id='name' name='name' type='text' className='form-control' />
@@ -20,11 +20,11 @@ export class ContactForm extends React.Component {
                     <label htmlFor='message'>Message</label><br></br>
                     <textarea className='form-control' id='message' rows='5'></textarea>
                 </div>
-                <button type='submit'>Submit</button>
+                <button type='submit'>Send It!</button>
             </form>
         )
     }
 
-    
+
 
 }

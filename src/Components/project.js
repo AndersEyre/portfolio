@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Project/project.css'
 
-function coinToss () {
+function coinToss() {
     return Math.random() < 0.5 ? 'heads' : 'tails';
 };
 
@@ -12,8 +12,8 @@ const pics = {
 
 export class Project extends React.Component {
 
-    render(){
-      return (
+    render() {
+        return (
             <div className='project'>
                 <div className='img-container'>
                     <img src={coinToss() === 'heads' ? pics['kitty'] : pics['doggo']} alt='project-img'></img>
@@ -23,6 +23,6 @@ export class Project extends React.Component {
                 <h3><a href={this.props.project.github} target='_blank' rel='noopener noreferrer'>GitHub</a></h3>
             </div>
 
-      );
+        );
     }
 };

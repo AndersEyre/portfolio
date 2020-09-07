@@ -39,7 +39,7 @@
 }
 
 .about-section h1 {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -56,24 +56,23 @@
 }
 
 .greeting {
-  font-size: 20px;
   width: 50%;
   background-color: #1e495a;
   height: 100vh;
+  min-width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
 }
 
 .about-image {
@@ -109,7 +108,7 @@ html {
 nav {
   position: fixed;
   background-color: black;
-  width: 100%;
+  width: 100vw;
   min-height: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
