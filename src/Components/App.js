@@ -1,10 +1,10 @@
 import React from 'react';
 import { Nav } from './Nav';
 import { ProjectList } from './ProjectList'
-import { Contact } from './Contact';
+import { Contact } from './contact';
 import { Footer } from './Footer'
 
-import '../Styles/App/app.css';
+import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
 
