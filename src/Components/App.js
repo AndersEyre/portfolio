@@ -7,6 +7,8 @@ import { Footer } from './Footer'
 import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
+import ProjectImg1 from '../Styles/App/Images/Jammming.png';
+import ProjectImg2 from '../Styles/App/Images/Ravenous.png';
 
 class App extends React.Component {
   constructor(props){
@@ -15,17 +17,17 @@ class App extends React.Component {
       projects:[
         {
           id:1,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
+          img: ProjectImg1,
+          name: 'Jammming',
           codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
+          github: 'https://github.com/AndersEyre/jammming',
         },
         {
           id: 2,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
+          img: ProjectImg2,
+          name: 'Ravenous',
           codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
+          github: 'https://github.com/AndersEyre/ravenous',
         },
         {
           id: 3,
