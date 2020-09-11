@@ -12,13 +12,12 @@
 .contact-info {
     max-width: 450px;
     min-width: 300px;
-    color: white;
+    color: $textColor;
     margin: auto;
     line-height: 40px;
 
     p {
         font-size: 20px;
-    
         margin-bottom: 30px;
         letter-spacing: 2px;
         word-spacing: 2px;

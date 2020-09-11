@@ -9,6 +9,9 @@ export class Project extends React.Component {
             <div className='project'>
                 <div className='img-container'>
                     <img src={this.props.project.img} alt='project-img'></img>
+                    <div className='project-description'>
+                        <p>{this.props.project.description}</p>
+                    </div>
                 </div>
                 <div className='project-info'>
                     <h1>{this.props.project.name}</h1>
