@@ -57,7 +57,7 @@ class App extends React.Component {
             <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
-        <ProjectList projects={this.state.projects}/>
+        <ProjectList projects={this.state.projects} />
         <Contact/>
         <Footer/>
       </main>   

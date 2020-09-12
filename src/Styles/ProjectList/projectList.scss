@@ -3,6 +3,7 @@
 .projects {
     display: flex;
     flex-direction: column;
+    transition-duration: 2s;
 }
 
 .project-list {

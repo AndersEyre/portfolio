@@ -1,3 +1,21 @@
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #16262c;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e3741;
+}
+
+body {
+  scrollbar-face-color: #16262c;
+  scrollbar-track-color: #1e3741;
+}
+
 .app {
   text-align: center;
   background-color: #1e3741;
@@ -45,7 +63,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 10px 100px 20px 100px;
+  padding: 20px 80px 20px 80px;
 }
 
 .about-section img {
@@ -78,8 +96,10 @@
 }
 
 .greeting p {
+  opacity: 0.9;
+  letter-spacing: 2px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
 }
 
 .about-image {
@@ -102,7 +122,7 @@
   color: black;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 730px) {
   .about-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -122,6 +142,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 .project-list {
