@@ -1,6 +1,24 @@
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #16262c;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e3741;
+}
+
+body {
+  scrollbar-face-color: #16262c;
+  scrollbar-track-color: #1e3741;
+}
+
 .app {
   text-align: center;
-  background-color: #427285;
+  background-color: #1e3741;
   font-size: calc(10px + 2vmin);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +63,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 20px 100px;
+  padding: 20px 80px 20px 80px;
 }
 
 .about-section img {
@@ -56,8 +74,10 @@
 }
 
 .greeting {
+  position: relative;
+  height: 100%;
   width: 50%;
-  background-color: #1e495a;
+  background-color: #16262c;
   height: 100vh;
   min-width: 200px;
   display: -webkit-box;
@@ -75,13 +95,26 @@
           flex-flow: column;
 }
 
+.greeting p {
+  opacity: 0.9;
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .about-image {
   width: 50%;
+  height: 100vh;
+  z-index: 10;
 }
 
 .resume {
   border: 1px solid black;
   border-radius: 5%;
+  z-index: 100;
+  background-color: #16262c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .resume:hover {
@@ -110,9 +143,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact-info {

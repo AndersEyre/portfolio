@@ -40,18 +40,7 @@ class App extends React.Component {
         },
         
       ],
-
-      kanyeQuote: [],
     };
-  }
-
-  componentDidMount(){
-    fetch('https://api.kanye.rest/')
-    .then(res => res.json())
-    .then((data) => {
-      this.setState({ kanyeQuote: data})
-    })
-    .catch(console.log)
   }
   
   render(){
@@ -64,7 +53,7 @@ class App extends React.Component {
           </div>
           <div className='greeting'>
             <h1>Hi Im Anders.</h1>
-            <p className='about-description'> I'm A Self Taught Developer From Melbourne, Australia. I Enjoy Designing And Creating Interactive Web Pages For Clients In Exciting Fields Such As Music, Arts, And Action Sports.  {/*this.state.kanyeQuote.quote*/}</p>
+            <p className='about-description'> I'm A Self Taught Developer From Melbourne, Australia. I Enjoy Designing And Building Interactive Web Pages For Clients In Exciting Fields Such As Music, Arts, And Action Sports. </p>
             <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
@@ -72,7 +61,6 @@ class App extends React.Component {
         <Contact/>
         <Footer/>
       </main>   
-      
     );
   }
 }

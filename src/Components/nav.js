@@ -57,6 +57,7 @@ export class Nav extends React.Component {
               <li>Contact</li>
             </div>
           </a>
+          <div className='underbar'></div>
         </ul>
       </nav>
     )

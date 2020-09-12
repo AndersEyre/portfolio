@@ -29,6 +29,10 @@ footer {
     display: flex;
     align-items: center;
     margin: 10px 100px;
+     
+    p {
+        margin: 10px 20px;
+    }
 }
 
 @media screen and (max-width: 880px) {

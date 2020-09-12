@@ -4,16 +4,16 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #1e3741;
-}
-
-body::-webkit-scrollbar-track {
   background: #16262c;
 }
 
+body::-webkit-scrollbar-track {
+  background: #1e3741;
+}
+
 body {
-  scrollbar-face-color: #1e3741;
-  scrollbar-track-color: #16262c;
+  scrollbar-face-color: #16262c;
+  scrollbar-track-color: #1e3741;
 }
 
 .app {
@@ -173,6 +173,10 @@ footer img {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px 100px;
+}
+
+.social-group p {
+  margin: 10px 20px;
 }
 
 @media screen and (max-width: 880px) {
