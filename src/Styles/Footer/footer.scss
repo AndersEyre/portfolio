@@ -13,20 +13,22 @@ footer {
     width: 100%;
 
     p {
-        margin: 30px 50px;
+        margin: 10px 40px;
+        font-size: 18px;
     }
 
     img {
         width: 50px;
         padding: 0px 5px;
         z-index: 10px;
-        margin: auto 8px;
+        
     }
 }
 
 .social-group {
     display: flex;
-    margin: 20px 100px;
+    align-items: center;
+    margin: 10px 100px;
 }
 
 @media screen and (max-width: 880px) {

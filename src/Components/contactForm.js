@@ -7,7 +7,7 @@ export class ContactForm extends React.Component {
     render() {
         return (
             <form id='contact'>
-                <h1>Got An Idea?</h1>
+                <h1>GOT AN IDEA?</h1>
                 <div className='form-group'>
                     <label htmlFor='name'></label><br></br>
                     <input id='name' name='name' type='text' className='form-control' placeholder='Your Name' required/>

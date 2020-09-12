@@ -45,7 +45,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 20px 100px;
+  padding: 10px 100px 20px 100px;
 }
 
 .about-section img {
@@ -78,7 +78,8 @@
 }
 
 .greeting p {
-  font-size: 15px;
+  font-size: 20px;
+  line-height: 23px;
 }
 
 .about-image {
@@ -92,6 +93,8 @@
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .resume:hover {

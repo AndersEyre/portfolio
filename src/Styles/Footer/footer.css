@@ -1,3 +1,21 @@
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1e3741;
+}
+
+body::-webkit-scrollbar-track {
+  background: #16262c;
+}
+
+body {
+  scrollbar-face-color: #1e3741;
+  scrollbar-track-color: #16262c;
+}
+
 .app {
   text-align: center;
   background-color: #1e3741;
@@ -45,7 +63,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 20px 100px;
+  padding: 20px 80px 20px 80px;
 }
 
 .about-section img {
@@ -78,7 +96,10 @@
 }
 
 .greeting p {
-  font-size: 15px;
+  opacity: 0.9;
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .about-image {
@@ -92,6 +113,8 @@
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .resume:hover {
@@ -132,21 +155,24 @@ footer {
 }
 
 footer p {
-  margin: 30px 50px;
+  margin: 10px 40px;
+  font-size: 18px;
 }
 
 footer img {
   width: 50px;
   padding: 0px 5px;
   z-index: 10px;
-  margin: auto 8px;
 }
 
 .social-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 100px;
 }
 
 @media screen and (max-width: 880px) {

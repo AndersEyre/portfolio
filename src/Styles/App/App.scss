@@ -10,6 +10,31 @@ $TextColor: white;
   flex-flow: $flexDirection;
 }
 
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width:  $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+body {
+  @include scrollbars(15px, $SecColor, $FirstColor);
+}
 
 .app {
   text-align: center;
@@ -34,7 +59,7 @@ $TextColor: white;
 
   h1, p {
     color: $TextColor;
-    padding: 10px 100px 20px 100px;
+    padding: 20px 80px 20px 80px;
   }
 
   img {
@@ -56,8 +81,10 @@ $TextColor: white;
   @include flexCenter(column);
 
   p {
+    opacity: 0.9;
+    letter-spacing: 2px;
     font-size: 20px;
-    line-height: 23px ;
+    line-height: 24px ;
   }
 }
 
