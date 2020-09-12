@@ -1,6 +1,6 @@
 
-$FirstColor: rgb(66, 114, 133);
-$SecColor: rgb(30, 73, 90);
+$FirstColor: rgb(30, 55, 65);
+$SecColor: rgb(22, 38, 44);
 $TextColor: white;
 
 @mixin flexCenter ($flexDirection) {
@@ -46,23 +46,32 @@ $TextColor: white;
 }
 
 .greeting {
-  
+  position: relative;
+  height: 100%;
   width: 50%;
   background-color: $SecColor;
   height: 100vh;
   min-width: 200px;
 
   @include flexCenter(column);
+
+  p {
+    font-size: 20px;
+  }
 }
 
 .about-image {
   width: 50%;
+  height: 100vh;
+  z-index: 10;
 }
 
 .resume {
   border: 1px solid black;
   border-radius: 5%;
-  
+  z-index: 100;
+  background-color: $SecColor;
+  transition: 0.5s;
 
   &:hover {
     background-color: white;

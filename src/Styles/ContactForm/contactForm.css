@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #427285;
+  background-color: #1e3741;
   font-size: calc(10px + 2vmin);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,8 +56,10 @@
 }
 
 .greeting {
+  position: relative;
+  height: 100%;
   width: 50%;
-  background-color: #1e495a;
+  background-color: #16262c;
   height: 100vh;
   min-width: 200px;
   display: -webkit-box;
@@ -75,13 +77,23 @@
           flex-flow: column;
 }
 
+.greeting p {
+  font-size: 20px;
+}
+
 .about-image {
   width: 50%;
+  height: 100vh;
+  z-index: 10;
 }
 
 .resume {
   border: 1px solid black;
   border-radius: 5%;
+  z-index: 100;
+  background-color: #16262c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .resume:hover {
@@ -99,6 +111,13 @@
   .about-image, .greeting {
     width: 100%;
   }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 
 form {
@@ -121,14 +140,24 @@ form {
   margin: auto;
 }
 
+form .form-control {
+  border-radius: 6px;
+  /* Hard "outline" with box-shadow: */
+}
+
+form .form-control:focus {
+  -webkit-box-shadow: 0 0 0 2pt #1e3741;
+          box-shadow: 0 0 0 2pt #1e3741;
+}
+
 form h1 {
   font-weight: bold;
-  padding: 6% 0%;
+  padding: 30px 0px 0px 0px;
   letter-spacing: 3px;
 }
 
 form button {
-  background-color: #427285;
+  background-color: #1e3741;
   color: white;
   border: 1px solid black;
   border-radius: 5%;
@@ -144,7 +173,6 @@ form button:hover {
 
 .form-control {
   width: 70%;
-  margin: 8px;
 }
 
 button {

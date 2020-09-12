@@ -2,8 +2,7 @@ import React from 'react';
 import { Nav } from './Nav';
 import { ProjectList } from './ProjectList'
 import { Contact } from './contact';
-import { Footer } from './Footer'
-
+import { Footer } from './Footer';
 import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
@@ -19,7 +18,7 @@ class App extends React.Component {
           id:1,
           img: ProjectImg1,
           name: 'Jammming',
-          description: 'A Web app to create and a add a music playlist to your existing spotify account.',
+          description: 'A Web app to create and add a music playlist to your existing spotify account.',
           codepen: 'https://codepen.io/',
           github: 'https://github.com/AndersEyre/jammming',
         },
@@ -27,7 +26,7 @@ class App extends React.Component {
           id: 2,
           img: ProjectImg2,
           name: 'Ravenous',
-          description: 'Find out the best places to eat anywhere in the world!',
+          description: 'Find the best places to eat anywhere in the world!',
           codepen: 'https://codepen.io/',
           github: 'https://github.com/AndersEyre/ravenous',
         },
@@ -54,8 +53,6 @@ class App extends React.Component {
     })
     .catch(console.log)
   }
-
-
   
   render(){
     return (
@@ -66,8 +63,8 @@ class App extends React.Component {
             <img src={require('../Styles/App/Images/Stockholm-small.jpg')} alt='background'/>
           </div>
           <div className='greeting'>
-            <h1>Greetings Friend!</h1>
-            <p> {this.state.kanyeQuote.quote} {/*Im Anders Eyre. <br/> A developer based in Melbourne, Australia.*/}</p>
+            <h1>Hi Im Anders.</h1>
+            <p className='about-description'> Having never written a line of code prior to april this year my goal as a self taught developer is to break into the industry  {/*this.state.kanyeQuote.quote*/}</p>
             <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>

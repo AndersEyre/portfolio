@@ -11,7 +11,7 @@
     max-width: 350px;
     min-height: 300px;
     min-width: 350px;
-    margin: 20px 10px;
+    margin: 20px 20px;
     border: 3px solid black;
     overflow: hidden;
 
@@ -28,6 +28,20 @@
         letter-spacing: 2.5px;
     }
 
+    &:hover {
+        img {
+            filter: blur(8px);
+            transition: all 0.2s ease;
+    }
+
+        .project-description {
+            opacity: 1;
+            transition: all 0.2s ease;
+            background: rgba(0, 0, 0, 0.6);
+        }
+    
+    }
+
 
 }
 
@@ -40,19 +54,6 @@
     align-items: center;
     justify-content: center;
 
-    &:hover {
-        img {
-            filter: blur(8px);
-            transition: all 0.5s ease;
-    }
-
-        .project-description {
-            opacity: 1;
-            transition: all 0.4s ease;
-            background: rgba(0, 0, 0, 0.6);
-        }
-    
-    }
 
     img {
         width: 100%;
@@ -72,6 +73,7 @@
         color: $TextColor;
         font-size: 18px;
         opacity: 0;
+        letter-spacing: 2px;
 
         p {
             margin: 35px;

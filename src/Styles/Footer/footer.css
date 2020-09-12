@@ -1,6 +1,6 @@
 .app {
   text-align: center;
-  background-color: #427285;
+  background-color: #1e3741;
   font-size: calc(10px + 2vmin);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,8 +56,10 @@
 }
 
 .greeting {
+  position: relative;
+  height: 100%;
   width: 50%;
-  background-color: #1e495a;
+  background-color: #16262c;
   height: 100vh;
   min-width: 200px;
   display: -webkit-box;
@@ -75,13 +77,21 @@
           flex-flow: column;
 }
 
+.greeting p {
+  font-size: 15px;
+}
+
 .about-image {
   width: 50%;
+  height: 100vh;
+  z-index: 10;
 }
 
 .resume {
   border: 1px solid black;
   border-radius: 5%;
+  z-index: 100;
+  background-color: #16262c;
 }
 
 .resume:hover {
@@ -115,7 +125,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
-  background-color: #1e495a;
+  background-color: #16262c;
   color: white;
   min-height: 100px;
   width: 100%;
