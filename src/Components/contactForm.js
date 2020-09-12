@@ -24,6 +24,7 @@ export class ContactForm extends React.Component {
                     <label htmlFor='message'></label><br></br>
                     <textarea className='form-control' id='message' rows='5' placeholder='Your Message Here...' required></textarea>
                 </div>
+                <p>All Fields Are Required</p>
                 <button type='submit'>Send It!</button>
             </form>
         )

@@ -19,14 +19,18 @@ form {
     min-width: 300px;
     margin: auto;
 
+    #message {
+        height: 90px;
+    }
+
     .form-control {
         border-radius: 6px;
+        height: 30px;
     
         /* Hard "outline" with box-shadow: */
         &:focus {
-            box-shadow: 0 0 0 2pt $FirstColor;
+            box-shadow: 0 0 0 1pt white;
         }
-
     }
 
     h1 {
@@ -34,6 +38,12 @@ form {
         font-weight: bold;
         padding: 30px 0px 0px 0px;
         letter-spacing: 3px;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 10px 0px;
+        text-decoration: underline;
     }
 
     button {
@@ -57,7 +67,7 @@ form {
 }
 
 button {
-    margin:10% 30%;
+    margin:5% 30%;
     cursor: pointer;
 }
 

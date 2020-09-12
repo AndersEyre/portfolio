@@ -45,7 +45,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 20px 100px;
+  padding: 10px 100px 20px 100px;
 }
 
 .about-section img {
@@ -79,6 +79,7 @@
 
 .greeting p {
   font-size: 20px;
+  line-height: 23px;
 }
 
 .about-image {

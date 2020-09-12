@@ -64,7 +64,7 @@ class App extends React.Component {
           </div>
           <div className='greeting'>
             <h1>Hi Im Anders.</h1>
-            <p className='about-description'> Having never written a line of code prior to april this year my goal as a self taught developer is to break into the industry  {/*this.state.kanyeQuote.quote*/}</p>
+            <p className='about-description'> Im a self taught developer from melbourne, australia. I enjoy designing and creating easy to interact with web apps from clients in exciting fields such as music, arts and action sports  {/*this.state.kanyeQuote.quote*/}</p>
             <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
