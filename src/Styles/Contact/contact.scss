@@ -30,7 +30,7 @@ button {
     padding: 15px 20px;
     font-size: 15px;
     border: 1px solid white;
-    border-radius: 5%;
+    border-radius: 290486px;
     z-index: 100;
     background-color: $SecColor;
     color: white;
@@ -52,9 +52,7 @@ hr {
 
 
 @media screen and (max-width: 970px){
-    .contact {
-        flex-direction: column-reverse;
-    }
+    
 
     form {
         margin: 0px 0px 0px 0px;

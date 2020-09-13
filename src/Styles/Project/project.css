@@ -113,8 +113,8 @@ body {
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .resume:hover {

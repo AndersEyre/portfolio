@@ -4,22 +4,24 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-flow: row;
-
-    
+    flex-flow: column;
     background-color: $SecColor;
     color: $TextColor;
     min-height: 200px;
     width: 100%;
 
+    h1 {
+        letter-spacing: 4px;
+    }
+
     p {
-        margin: 10px 40px;
         font-size: 18px;
+        margin: 20px 0px;
     }
 
     img {
         width: 50px;
-        padding: 0px 5px;
+        padding: 30px 20px;
         z-index: 10px;
         
     }
@@ -28,10 +30,14 @@ footer {
 .social-group {
     display: flex;
     align-items: center;
-    margin: 10px 100px;
      
     p {
         margin: 10px 20px;
+    }
+    .icon {
+        &:hover {
+            filter: invert(10);
+        }
     }
 }
 

@@ -113,8 +113,8 @@ body {
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .resume:hover {
@@ -144,24 +144,28 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
+      -ms-flex-flow: column;
+          flex-flow: column;
   background-color: #16262c;
   color: white;
   min-height: 200px;
   width: 100%;
 }
 
+footer h1 {
+  letter-spacing: 4px;
+}
+
 footer p {
-  margin: 10px 40px;
   font-size: 18px;
+  margin: 20px 0px;
 }
 
 footer img {
   width: 50px;
-  padding: 0px 5px;
+  padding: 30px 20px;
   z-index: 10px;
 }
 
@@ -172,11 +176,15 @@ footer img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 100px;
 }
 
 .social-group p {
   margin: 10px 20px;
+}
+
+.social-group .icon:hover {
+  -webkit-filter: invert(10);
+          filter: invert(10);
 }
 
 @media screen and (max-width: 880px) {

@@ -9,6 +9,7 @@ export class ContactForm extends React.Component {
 
         return (
             <form id='contact' style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }}>
+                <div className='psuedo-background'/>
                 <h1 >GOT AN IDEA?</h1>
                 <img className='close-button' src={CloseBtn} alt='close button' onClick={this.props.handleClick} />
                 <div className='form-group'>

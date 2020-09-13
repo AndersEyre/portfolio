@@ -173,7 +173,7 @@ button {
   padding: 15px 20px;
   font-size: 15px;
   border: 1px solid white;
-  border-radius: 5%;
+  border-radius: 290486px;
   z-index: 100;
   background-color: #16262c;
   color: white;
@@ -192,12 +192,6 @@ hr {
 }
 
 @media screen and (max-width: 970px) {
-  .contact {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
   form {
     margin: 0px 0px 0px 0px;
     min-width: 350px;

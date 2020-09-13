@@ -8,7 +8,7 @@ button:focus {
 }
 
 form {
-    background-color: rgb(30, 73, 90);
+    background-color: rgb(65, 161, 199);
     position: fixed;
     top: 150px;
     display: flex;
@@ -21,6 +21,7 @@ form {
     min-width: 300px;
     margin: auto;
     z-index: 1000;
+    border: 1px solid black;
 
     #message {
         height: 90px;
@@ -77,6 +78,17 @@ form {
           color: black;
         }
       }
+}
+
+.psuedo-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $SecColor;
+    opacity: 0.8;
+    z-index: -1;
 }
 
 .form-control {

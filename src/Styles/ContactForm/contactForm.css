@@ -142,7 +142,7 @@ button:focus {
 }
 
 form {
-  background-color: #1e495a;
+  background-color: #41a1c7;
   position: fixed;
   top: 150px;
   display: -webkit-box;
@@ -162,6 +162,7 @@ form {
   min-width: 300px;
   margin: auto;
   z-index: 1000;
+  border: 1px solid black;
 }
 
 form #message {
@@ -219,6 +220,17 @@ form button {
 form button:hover {
   background-color: white;
   color: black;
+}
+
+.psuedo-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #16262c;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .form-control {
