@@ -113,8 +113,8 @@ body {
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .resume:hover {
@@ -122,7 +122,7 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 730px) {
   .about-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -135,8 +135,9 @@ body {
 }
 
 .contact {
+  background-color: #16262c;
   width: 100%;
-  margin: 60px 0px;
+  margin: 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,10 +147,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact-info {
-  max-width: 450px;
+  padding: 60px 0px 0px 0px;
+  max-width: 650px;
   min-width: 300px;
   color: white;
   margin: auto;
@@ -158,9 +164,31 @@ body {
 
 .contact-info p {
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
   word-spacing: 2px;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 5%;
+  z-index: 100;
+  background-color: #16262c;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+hr {
+  border-top: 1px dashed whitesmoke;
+  width: 95%;
 }
 
 @media screen and (max-width: 970px) {

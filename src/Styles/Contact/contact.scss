@@ -1,16 +1,18 @@
 @import '../App/App.scss';
 
 .contact {
+    background-color: $SecColor;
     width: 100%;
-    margin: 60px 0px;
+    margin: 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 .contact-info {
-    max-width: 450px;
+    padding: 60px 0px 0px 0px;
+    max-width: 650px;
     min-width: 300px;
     color: $TextColor;
     margin: auto;
@@ -18,11 +20,36 @@
 
     p {
         font-size: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         letter-spacing: 2px;
         word-spacing: 2px;
     }
 }
+
+button {
+    padding: 15px 20px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5%;
+    z-index: 100;
+    background-color: $SecColor;
+    color: white;
+    
+  
+    &:hover {
+        background-color: white;
+        color: black;
+        transition: 0.3s;
+    }
+}
+
+hr {
+    border-top: 1px dashed whitesmoke;
+    width: 95%;
+
+}
+
+
 
 @media screen and (max-width: 970px){
     .contact {

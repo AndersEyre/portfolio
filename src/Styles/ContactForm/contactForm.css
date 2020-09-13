@@ -1,3 +1,21 @@
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #16262c;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e3741;
+}
+
+body {
+  scrollbar-face-color: #16262c;
+  scrollbar-track-color: #1e3741;
+}
+
 .app {
   text-align: center;
   background-color: #1e3741;
@@ -45,7 +63,7 @@
 
 .about-section h1, .about-section p {
   color: white;
-  padding: 10px 100px 20px 100px;
+  padding: 20px 80px 20px 80px;
 }
 
 .about-section img {
@@ -78,8 +96,10 @@
 }
 
 .greeting p {
+  opacity: 0.9;
+  letter-spacing: 2px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 24px;
 }
 
 .about-image {
@@ -93,8 +113,8 @@
   border-radius: 5%;
   z-index: 100;
   background-color: #16262c;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .resume:hover {
@@ -102,7 +122,7 @@
   color: black;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 730px) {
   .about-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -123,6 +143,8 @@ button:focus {
 
 form {
   background-color: #1e495a;
+  position: fixed;
+  top: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,6 +161,7 @@ form {
   max-width: 400px;
   min-width: 300px;
   margin: auto;
+  z-index: 1000;
 }
 
 form #message {
@@ -160,6 +183,21 @@ form h1 {
   font-weight: bold;
   padding: 30px 0px 0px 0px;
   letter-spacing: 3px;
+}
+
+form .close-button {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+form .close-button:hover {
+  -webkit-filter: invert(0.8);
+          filter: invert(0.8);
 }
 
 form p {
