@@ -182,6 +182,16 @@ footer img {
   margin: 10px 20px;
 }
 
+.social-group #github-icon {
+  -webkit-filter: brightness(135%);
+          filter: brightness(135%);
+}
+
+.social-group #github-icon:hover {
+  -webkit-filter: invert(10);
+          filter: invert(10);
+}
+
 .social-group .icon:hover {
   -webkit-filter: invert(10);
           filter: invert(10);

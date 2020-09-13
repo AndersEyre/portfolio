@@ -34,6 +34,16 @@ footer {
     p {
         margin: 10px 20px;
     }
+
+    #github-icon {
+        filter: brightness(135%);
+
+        &:hover {
+            filter: invert(10);
+        }
+
+    }
+
     .icon {
         &:hover {
             filter: invert(10);
