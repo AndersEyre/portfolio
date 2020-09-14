@@ -134,80 +134,129 @@ body {
   }
 }
 
-footer {
+.skills {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.skill-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  background-color: #16262c;
-  color: white;
-  min-height: 200px;
-  width: 100%;
-}
-
-footer h1 {
-  letter-spacing: 4px;
-}
-
-footer p {
-  font-size: 18px;
-  margin: 20px 0px;
-}
-
-footer img {
-  width: 50px;
-  padding: 30px 20px;
-  z-index: 10px;
-}
-
-.social-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-height: 300px;
+  max-width: 350px;
+  min-height: 300px;
+  min-width: 350px;
+  margin: 20px 20px;
+  color: white;
 }
 
-.social-group p {
-  margin: 10px 20px;
+.skill-set h2 {
+  margin: 20px 0px;
+  letter-spacing: 5px;
+  font-weight: 500;
 }
 
-.social-group #github-icon {
-  -webkit-filter: brightness(135%);
-          filter: brightness(135%);
+.skill-set li {
+  margin: 10px 0px;
+  font-size: 80%;
+  list-style: disc;
 }
 
-.social-group #github-icon:hover {
+.skill-set img {
+  max-width: 90px;
   -webkit-filter: invert(10);
           filter: invert(10);
 }
 
-.social-group .icon:hover {
-  -webkit-filter: invert(10);
-          filter: invert(10);
+.skill-set img:hover {
+  /* on hover - scale to this x,y size */
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  /* property values: name, duration, iteration, timing-function */
+  -webkit-animation: jiggle 0.3s ease-out;
+          animation: jiggle 0.3s ease-out;
 }
 
-.attribution {
-  font-size: 15px;
-  margin-bottom: 10px;
+@-webkit-keyframes jiggle {
+  /* start at 0deg and this scale size.
+               scale size is repeated here to maintain smooth scaling */
+  0% {
+    -webkit-transform: rotate(0deg) scale(1.15, 1.15);
+            transform: rotate(0deg) scale(1.15, 1.15);
+  }
+  /* midway rotate 2deg right */
+  30% {
+    -webkit-transform: rotate(2deg) scale(1.15, 1.15);
+            transform: rotate(2deg) scale(1.15, 1.15);
+  }
+  /* end rotate -2deg left */
+  70% {
+    -webkit-transform: rotate(-2deg) scale(1.15, 1.15);
+            transform: rotate(-2deg) scale(1.15, 1.15);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) scale(1.15, 1.15);
+            transform: rotate(0deg) scale(1.15, 1.15);
+  }
 }
 
-@media screen and (max-width: 880px) {
-  footer {
+@keyframes jiggle {
+  /* start at 0deg and this scale size.
+               scale size is repeated here to maintain smooth scaling */
+  0% {
+    -webkit-transform: rotate(0deg) scale(1.15, 1.15);
+            transform: rotate(0deg) scale(1.15, 1.15);
+  }
+  /* midway rotate 2deg right */
+  30% {
+    -webkit-transform: rotate(2deg) scale(1.15, 1.15);
+            transform: rotate(2deg) scale(1.15, 1.15);
+  }
+  /* end rotate -2deg left */
+  70% {
+    -webkit-transform: rotate(-2deg) scale(1.15, 1.15);
+            transform: rotate(-2deg) scale(1.15, 1.15);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) scale(1.15, 1.15);
+            transform: rotate(0deg) scale(1.15, 1.15);
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .skills {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skill-set li {
+    padding: 0px;
   }
 }
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=skills.css.map */

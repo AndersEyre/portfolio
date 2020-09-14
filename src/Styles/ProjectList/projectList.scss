@@ -5,6 +5,7 @@
     flex-direction: column;
     transition-duration: 2s;
     margin-bottom: 70px;
+    margin-top: 40px;
 }
 
 .project-list {
@@ -17,12 +18,13 @@
 .projects h1 {
     color: $TextColor;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 #projects-header {
-    font-size: 35px;
+    font-size: 25px;
     padding: 30px 0px;
+    letter-spacing: 10px;
 }
 
 

@@ -51,6 +51,11 @@ footer {
     }
 }
 
+.attribution {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 880px) {
     footer {
         flex-direction: column;

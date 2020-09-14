@@ -6,10 +6,6 @@ import instaIcon from '../Styles/Footer/Icons/insta.png';
 import mailIcon from '../Styles/Footer/Icons/mail.png';
 import gitHub from '../Styles/Footer/Icons/github.png'
 
-import fbIcon2 from '../Styles/Footer/Icons/Facebook Teal.png';
-import instaIcon2 from '../Styles/Footer/Icons/Instagram Teal.png';
-import mailIcon2 from '../Styles/Footer/Icons/Email Teal.png';
-
 
 
 
@@ -29,6 +25,8 @@ export function Footer() {
           <p>Conjured By © Anders Eyre</p>
           <p>- All Rights Reserved -</p>
         </div>
+        <div className='attribution'>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
       </footer>
     )
 };

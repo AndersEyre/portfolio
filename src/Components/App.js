@@ -3,6 +3,7 @@ import { Nav } from './Nav';
 import { ProjectList } from './ProjectList'
 import { Contact } from './contact';
 import { Footer } from './Footer';
+import { Skills } from './Skills';
 import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
@@ -57,6 +58,7 @@ class App extends React.Component {
             <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
           </div>
         </div>
+        <Skills/>
         <ProjectList projects={this.state.projects} />
         <Contact/>
         <Footer/>

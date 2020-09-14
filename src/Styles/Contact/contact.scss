@@ -27,10 +27,12 @@
 }
 
 button {
-    padding: 15px 20px;
+    padding: 15px 25px;
     font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
     border: 1px solid white;
-    border-radius: 290486px;
+    border-radius: 150px;
     z-index: 100;
     background-color: $SecColor;
     color: white;
