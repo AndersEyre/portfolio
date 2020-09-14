@@ -16,7 +16,7 @@ export class ProjectList extends React.Component {
 
     componentDidMount(){
         document.addEventListener('scroll', () => {
-            const visible = window.scrollY > 450;
+            const visible = window.scrollY > 500;
             if (visible !== false) {
                 this.setState({ visible })
             }

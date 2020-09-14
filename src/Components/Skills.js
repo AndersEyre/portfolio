@@ -25,7 +25,7 @@ export class Skills extends React.Component {
                     <img src={devIcon} alt='development-icon' className='icon'></img>
                     <h2>Development</h2>
                     <ul className='skill-list'>
-                        <li>javaScript</li>
+                        <li>JavaScript</li>
                         <li>React</li>
                         <li>Sass</li>
                         <li>Node</li>
@@ -35,10 +35,10 @@ export class Skills extends React.Component {
                     <img src={softSkillsIcon} alt='soft-skils-icon' className='icon'></img>
                     <h2>Soft Skills</h2>
                     <ul className='skill-list'>
-                        <li>Critial Thinking</li>
+                        <li>Critical Thinking</li>
                         <li>Adaptability</li>
                         <li>Leadership</li>
-                        <li>Conflict resolution</li>
+                        <li>Conflict Resolution</li>
                     </ul>
                     
                 </div>

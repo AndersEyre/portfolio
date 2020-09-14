@@ -55,7 +55,7 @@ class App extends React.Component {
           <div className='greeting'>
             <h1>Hi Im Anders.</h1>
             <p className='about-description'> I'm A Self Taught Developer From Melbourne, Australia. I Enjoy Designing And Building Interactive Web Pages For Clients In Exciting Fields Such As Music, Arts, And Action Sports. </p>
-            <a href={Pdf} target='_blank' rel='noopener noreferrer'><p className='resume'>Resume</p></a>
+            <a href={Pdf} target='_blank' rel='noopener noreferrer'><p id='resume'>Resume</p></a>
           </div>
         </div>
         <Skills/>

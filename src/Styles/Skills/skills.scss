@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    margin: 20px 0px;
 
 }
 
@@ -31,6 +32,7 @@
         margin: 10px 0px;
         font-size: 80%;
         list-style: disc;
+        list-style-position: inside;
     }
 
     img {
