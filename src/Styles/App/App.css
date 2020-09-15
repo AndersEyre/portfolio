@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'comfortaaregular';
+  src: url("../Fonts/comfortaa-regular-webfont.woff2") format("woff2"), url("../Fonts/comfortaa-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comfortaalight';
+  src: url("../Fonts/comfortaa-light-webfont.woff2") format("woff2"), url("../Fonts/comfortaa-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'comfortaabold';
+  src: url("../Fonts/comfortaa-bold-webfont.woff2") format("woff2"), url("../Fonts/comfortaa-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body::-webkit-scrollbar {
   width: 15px;
   height: 15px;
@@ -95,11 +116,17 @@ body {
           flex-flow: column;
 }
 
+.greeting h1 {
+  font-family: 'comfortaabold', Arial, Helvetica, sans-serif;
+  font-size: 180%;
+}
+
 .greeting p {
   opacity: 0.9;
   letter-spacing: 2px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 35px;
+  font-family: 'Neucha', cursive;
 }
 
 .about-image {
@@ -115,6 +142,7 @@ body {
   background-color: #16262c;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-family: 'Abel', sans-serif;
 }
 
 #resume:hover {

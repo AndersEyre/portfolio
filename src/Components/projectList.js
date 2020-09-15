@@ -26,7 +26,7 @@ export class ProjectList extends React.Component {
     render() {
         return (
             <section className='projects' id='projects' style={ this.state.visible ? { opacity: '1' } : { opacity: '0' } } >
-                <h1 id='projects-header'> PROJECTS </h1>
+                <h1 id='projects-header'>PROJECTS</h1>
                 <div className="project-list" >
                     {
                         this.props.projects.map(project => {

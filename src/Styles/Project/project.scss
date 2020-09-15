@@ -17,17 +17,25 @@
     transition-duration: 2s;
 
     h1 {
-        font-size: 100%;
+        font-size: 120%;
         font-weight: bold;
         padding: 12px 0px 2px 0px;
+        font-family: 'Abel', sans-serif;
     }
 
     h3 {
         display: inline-block;
         font-size: 80%;
         padding: 10px;
-        letter-spacing: 2.5px;
+        letter-spacing: 5px;
+        font-family: 'Abel', sans-serif;
     }
+
+    a {
+        &:hover {
+            opacity: 0.8;
+        }
+      }
 
     &:hover {
         img {

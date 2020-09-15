@@ -3,6 +3,39 @@ $FirstColor: rgb(30, 55, 65);
 $SecColor: rgb(22, 38, 44);
 $TextColor: white;
 
+@font-face {
+  font-family: 'comfortaaregular';
+  src: url('../Fonts/comfortaa-regular-webfont.woff2') format('woff2'),
+       url('../Fonts/comfortaa-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'comfortaalight';
+  src: url('../Fonts/comfortaa-light-webfont.woff2') format('woff2'),
+       url('../Fonts/comfortaa-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'comfortaabold';
+  src: url('../Fonts/comfortaa-bold-webfont.woff2') format('woff2'),
+       url('../Fonts/comfortaa-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 @mixin flexCenter ($flexDirection) {
   display: flex;
   justify-content: center;
@@ -44,6 +77,7 @@ body {
   @include flexCenter(column);
 }
 
+
 .about-section { 
   min-height: 100vh;
   max-width: 100%;
@@ -80,11 +114,17 @@ body {
 
   @include flexCenter(column);
 
+  h1 {
+    font-family: 'comfortaabold', Arial, Helvetica, sans-serif;
+    font-size: 180%;
+  }
+
   p {
     opacity: 0.9;
     letter-spacing: 2px;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 35px;
+    font-family: 'Neucha', cursive;
   }
 }
 
@@ -100,6 +140,7 @@ body {
   z-index: 100;
   background-color: $SecColor;
   transition: 0.3s;
+  font-family: 'Abel', sans-serif;
 
   &:hover {
     background-color: white;
