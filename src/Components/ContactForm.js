@@ -11,7 +11,7 @@ export class ContactForm extends React.Component {
             <form 
             id='contact'
             name='contact'
-            method='post'
+            method='POST'
             style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }} >
                 <input type='hidden' name='form-name' value='contact' />
                 <div className='psuedo-background'/>
