@@ -308,5 +308,10 @@ a {
   .skill-set li {
     padding: 0px;
   }
+  .skill-set {
+    min-height: 250px;
+    min-width: 300px;
+    margin: 30px 0px;
+  }
 }
 /*# sourceMappingURL=skills.css.map */

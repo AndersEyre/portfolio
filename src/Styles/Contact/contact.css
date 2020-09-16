@@ -207,10 +207,14 @@ a {
 }
 
 .contact-info p {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
   letter-spacing: 2px;
   word-spacing: 2px;
+}
+
+.contact-info button {
+  margin: 20px 50px;
 }
 
 button {

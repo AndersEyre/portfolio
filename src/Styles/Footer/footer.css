@@ -254,5 +254,10 @@ footer img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .icon {
+    width: 50px;
+    padding: 15px 10px;
+    z-index: 10px;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

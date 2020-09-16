@@ -24,7 +24,6 @@ footer {
         width: 50px;
         padding: 30px 20px;
         z-index: 10px;
-        
     }
 }
 
@@ -60,6 +59,12 @@ footer {
 @media screen and (max-width: 880px) {
     footer {
         flex-direction: column;
+    }
+
+    .icon {
+        width: 50px;
+        padding: 15px 10px;
+        z-index: 10px;
     }
 
 }
