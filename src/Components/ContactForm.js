@@ -8,7 +8,7 @@ export class ContactForm extends React.Component {
     render() {
 
         return (
-            <form id='contact' style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }} netlify>
+            <form id='contact' style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }} data-netlify="true">
                 <div className='psuedo-background'/>
                 <h1 >GOT AN IDEA?</h1>
                 <img className='close-button' src={CloseBtn} alt='close button' onClick={this.props.handleClick} />
