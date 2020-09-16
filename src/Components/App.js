@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from './Nav';
 import { ProjectList } from './ProjectList'
-import { Contact } from './contact';
+import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Skills } from './Skills';
 import '../Styles/App/App.css';
@@ -21,7 +21,10 @@ class App extends React.Component {
           img: ProjectImg1,
           name: 'Jammming',
           description: 'A web app to create and add a music playlist to your existing Spotify account',
-          codepen: 'https://codepen.io/',
+          demo: {
+            title: 'Demo',
+            link: 'http://jammyjam.surge.sh/',
+          },
           github: 'https://github.com/AndersEyre/jammming',
         },
         {
@@ -29,7 +32,10 @@ class App extends React.Component {
           img: ProjectImg2,
           name: 'Ravenous',
           description: 'Search for restaurants via location and other filters',
-          codepen: 'https://codepen.io/',
+          demo: {
+            title: 'Demo',
+            link: 'http://ravenousdemo.surge.sh/',
+          },
           github: 'https://github.com/AndersEyre/ravenous',
         },
         {
@@ -37,7 +43,10 @@ class App extends React.Component {
           img: ProjectImg3,
           name: 'Expresso',
           description: 'A web api for a fictional coffee shop to update menus and employee information',
-          codepen: 'https://codepen.io/',
+          demo: {
+            title: '',
+            link: '',
+          },
           github: 'https://github.com/AndersEyre/Expresso',
         },
         
