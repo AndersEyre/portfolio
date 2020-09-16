@@ -13,7 +13,7 @@ export class ContactForm extends React.Component {
             name='contact'
             method='POST'
             style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }} >
-                <input type='hidden' name='form-name' form-name='contact' value='contact' />
+                <input type='hidden' name='contact' value='contact' />
                 <div className='psuedo-background'/>
                 <h1 >GOT AN IDEA?</h1>
                 <img className='close-button' src={CloseBtn} alt='close button' onClick={this.props.handleClick} />
