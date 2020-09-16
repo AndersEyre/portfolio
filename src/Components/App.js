@@ -36,7 +36,7 @@ class App extends React.Component {
           id: 3,
           img: ProjectImg3,
           name: 'Expresso',
-          description: 'A web api for a fictional coffeeshop to update menus and employee information',
+          description: 'A web api for a fictional coffee shop to update menus and employee information',
           codepen: 'https://codepen.io/',
           github: 'https://github.com/AndersEyre/Expresso',
         },
