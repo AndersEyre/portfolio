@@ -29,6 +29,8 @@ export class Skills extends React.Component {
                         <li>React</li>
                         <li>Sass</li>
                         <li>Node</li>
+                        <li>SQL</li>
+                        <li>Git/Bash</li>
                     </ul>
                 </div>
                 <div className='skill-set'>

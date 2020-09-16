@@ -40,3 +40,5 @@ export class ProjectList extends React.Component {
         
     }
 };
+
+export default ProjectList;

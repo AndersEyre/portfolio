@@ -9,6 +9,7 @@ import '../Styles/App/App.css';
 import Pdf from '../Styles/App/Resume.pdf';
 import ProjectImg1 from '../Styles/App/Images/Jammming.png';
 import ProjectImg2 from '../Styles/App/Images/Ravenous.png';
+import ProjectImg3 from '../Styles/App/Images/expresso-screenshot.png'
 
 class App extends React.Component {
   constructor(props){
@@ -19,7 +20,7 @@ class App extends React.Component {
           id:1,
           img: ProjectImg1,
           name: 'Jammming',
-          description: 'A Web app to create and add a music playlist to your existing spotify account.',
+          description: 'A web app to create and add a music playlist to your existing Spotify account',
           codepen: 'https://codepen.io/',
           github: 'https://github.com/AndersEyre/jammming',
         },
@@ -27,17 +28,17 @@ class App extends React.Component {
           id: 2,
           img: ProjectImg2,
           name: 'Ravenous',
-          description: 'Find the best places to eat anywhere in the world!',
+          description: 'Search for restaurants via location and other filters',
           codepen: 'https://codepen.io/',
           github: 'https://github.com/AndersEyre/ravenous',
         },
         {
           id: 3,
-          img: '//img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/wibbitz/wbz-what-to-do-about-hairballs-in-cats.jpg',
-          name: 'Proxy project',
-          description: '',
+          img: ProjectImg3,
+          name: 'Expresso',
+          description: 'A web api for a fictional coffeeshop to update menus and employee information',
           codepen: 'https://codepen.io/',
-          github: 'https://github.com/',
+          github: 'https://github.com/AndersEyre/Expresso',
         },
         
       ],

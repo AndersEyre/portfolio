@@ -125,7 +125,7 @@ body {
   opacity: 0.9;
   letter-spacing: 2px;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 35px;
   font-family: 'Neucha', cursive;
 }
 
@@ -143,6 +143,7 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   font-family: 'Abel', sans-serif;
+  z-index: 999;
 }
 
 #resume:hover {
@@ -164,6 +165,16 @@ a {
   }
   .about-image, .greeting {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greeting p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  #resume {
+    padding: 10px 40px 10px 40px;
   }
 }
 
