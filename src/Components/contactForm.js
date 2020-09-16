@@ -23,15 +23,15 @@ export class ContactForm extends React.Component {
                 </div>
                 <div className='form-group'>
                     <label htmlFor='email'></label><br></br>
-                    <input type='email' id='email' className='form-control' placeholder='Your Email' required />
+                    <input type='email' name='email' id='email' className='form-control' placeholder='Your Email' required />
                 </div>
                 <div className='form-group'>
                     <label htmlFor='subject'></label><br></br>
-                    <input type='text' className='form-control' id='subject' placeholder='Subject' required />
+                    <input type='text' name='subject' className='form-control' id='subject' placeholder='Subject' required />
                 </div>
                 <div className='form-group'>
                     <label htmlFor='message'></label><br></br>
-                    <textarea className='form-control' id='message' rows='5' placeholder='Your Message Here...' required></textarea>
+                    <textarea className='form-control' id='message' name='message' rows='5' placeholder='Your Message Here...' required></textarea>
                 </div>
                 <p>All Fields Are Required</p>
                 <button type='submit'>Send It!</button>
