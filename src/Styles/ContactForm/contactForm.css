@@ -188,7 +188,7 @@ button:focus {
 form {
   background-color: #41a1c7;
   position: fixed;
-  top: 150px;
+  top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
