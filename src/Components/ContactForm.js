@@ -33,7 +33,7 @@ export class ContactForm extends React.Component {
     const { name, email, subject, message } = this.state;
 
     return (
-            <form id='contact' method='POST' style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }} onSubmit={this.handleSubmit}>
+            <form id='contact' method='POST' style={this.props.visible ? { visibility: 'visible' } : { visibility: 'hidden' }}>
               <input type='hidden' name='form-name' value='contact' />
               <div className='psuedo-background'/>
               <h1>GOT AN IDEA?</h1>
