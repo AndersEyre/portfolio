@@ -207,6 +207,7 @@ a {
 }
 
 .contact-info p {
+  font-family: 'Abel', sans-serif;
   font-size: 18px;
   margin-bottom: 20px;
   letter-spacing: 2px;

@@ -26,12 +26,13 @@
     h3 {
         display: inline-block;
         font-size: 80%;
-        padding: 10px 10px;
+        padding: 10px 15px;
         letter-spacing: 5px;
         font-family: 'Abel', sans-serif;
     }
 
     a {
+        
         &:hover {
             opacity: 0.8;
         }
