@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45fd931f.chunk.css",
+    "main.js": "/static/js/main.b6ec9eda.chunk.js",
+    "main.js.map": "/static/js/main.b6ec9eda.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.5ab46e9e.chunk.js": "/static/js/2.5ab46e9e.chunk.js",
+    "static/js/2.5ab46e9e.chunk.js.map": "/static/js/2.5ab46e9e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9d5bfd97118086e36e75b4c619feb801.js": "/precache-manifest.9d5bfd97118086e36e75b4c619feb801.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.45fd931f.chunk.css.map": "/static/css/main.45fd931f.chunk.css.map",
+    "static/js/2.5ab46e9e.chunk.js.LICENSE.txt": "/static/js/2.5ab46e9e.chunk.js.LICENSE.txt",
+    "static/media/Jammming.png": "/static/media/Jammming.1ccb4b5c.png",
+    "static/media/Ravenous.png": "/static/media/Ravenous.ea2e37a7.png",
+    "static/media/Resume.pdf": "/static/media/Resume.9276634c.pdf",
+    "static/media/Stockholm-small.jpg": "/static/media/Stockholm-small.45ff7b25.jpg",
+    "static/media/App.css": "/static/media/comfortaa-regular-webfont.783c57c3.woff2",
+    "static/media/content-creation.png": "/static/media/content-creation.0baa2ab2.png",
+    "static/media/expresso-screenshot.png": "/static/media/expresso-screenshot.8adf02d5.png",
+    "static/media/fb.png": "/static/media/fb.3feee8da.png",
+    "static/media/insta.png": "/static/media/insta.97bcac2b.png",
+    "static/media/mail.png": "/static/media/mail.678b4e53.png",
+    "static/media/soft-skills.png": "/static/media/soft-skills.86e619a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.5ab46e9e.chunk.js",
+    "static/css/main.45fd931f.chunk.css",
+    "static/js/main.b6ec9eda.chunk.js"
+  ]
+}
