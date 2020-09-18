@@ -112,6 +112,7 @@ body {
   background-color: $SecColor;
   height: 100vh;
   min-width: 200px;
+  
 
   @include flexCenter(column);
 
@@ -125,6 +126,7 @@ body {
     letter-spacing: 2px;
     font-size: 20px;
     line-height: 35px;
+    max-width: 650px;
     font-family: 'Neucha', cursive;
   }
 }
@@ -136,7 +138,7 @@ body {
 }
 
 #resume {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5%;
   z-index: 100;
   background-color: $SecColor;
