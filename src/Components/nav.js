@@ -7,11 +7,6 @@ let prevScrollpos = window.pageYOffset;
 
 
 export class Nav extends React.Component {
-  constructor(props) {
-    super(props)
-
-
-  }
 
   handleResize = () => {
     if(window.innerWidth >= 650){
@@ -66,8 +61,8 @@ export class Nav extends React.Component {
 
           <div id='logo' className='active'>
             <li>Anders Eyre</li>
-            <a class='icon' onClick={this.handleClick}>
-              <i href="!#" class='fa fa-bars' ></i>
+            <a href="!#" class='icon' onClick={this.handleClick}>
+              <i class='fa fa-bars' ></i>
             </a>
           </div>
 
