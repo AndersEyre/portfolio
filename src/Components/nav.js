@@ -67,9 +67,9 @@ export class Nav extends React.Component {
 
           <div id='logo' className='active'>
             <li>Anders Eyre</li>
-            <a href={void(0)} class='icon' onClick={this.handleClick}>
+            <button class='icon' onClick={this.handleClick}>
               <i class='fa fa-bars' ></i>
-            </a>
+            </button>
           </div>
 
           <a href='#about' className='hamburger-dropdown'>

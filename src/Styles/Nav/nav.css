@@ -126,6 +126,7 @@ body {
   letter-spacing: 2px;
   font-size: 20px;
   line-height: 35px;
+  max-width: 650px;
   font-family: 'Neucha', cursive;
 }
 
@@ -204,6 +205,10 @@ nav {
           align-items: center;
   z-index: 10;
   overflow: hidden;
+}
+
+nav button {
+  margin: 10px;
 }
 
 .nav-bar {
@@ -326,12 +331,6 @@ nav li {
   display: none;
 }
 
-button #hamburger {
-  margin: 0px;
-  padding: 0px;
-  border-radius: 10px;
-}
-
 @media screen and (max-width: 650px) {
   #navigation .nav-bar {
     -webkit-box-pack: justify;
@@ -380,7 +379,7 @@ button #hamburger {
   .nav-bar a:not(:first-child) {
     display: none;
   }
-  .nav-bar a.icon {
+  .nav-bar button.icon {
     float: right;
     display: block;
   }
@@ -391,7 +390,7 @@ button #hamburger {
   .nav-bar.responsive {
     position: relative;
   }
-  .nav-bar.responsive a.icon {
+  .nav-bar.responsive button.icon {
     position: absolute;
     right: 0;
     top: 0;
