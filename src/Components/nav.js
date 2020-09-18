@@ -11,7 +11,6 @@ export class Nav extends React.Component {
     super(props)
 
 
-    this.handleClick = this.handleClick.bind(this);
   }
 
   handleResize = () => {
@@ -25,7 +24,7 @@ export class Nav extends React.Component {
     }
   }
 
-  handleClick() {
+  handleClick = () => {
     const x = document.getElementById('nav-bar');
     if (x.className === 'nav-bar') {
       x.className = 'responsive';
@@ -53,7 +52,6 @@ export class Nav extends React.Component {
     console.log('mount')
     window.addEventListener('resize', this.handleResize, true)
     window.addEventListener('scroll', this.handleScroll, true);
-    window.addEventListener('click', this.handleClick, true);
   }
 
   componentWillUnmount() {
@@ -68,8 +66,8 @@ export class Nav extends React.Component {
 
           <div id='logo' className='active'>
             <li>Anders Eyre</li>
-            <a class='icon' onclick={this.handleClick}>
-              <i href="!#" class='fa fa-bars'></i>
+            <a class='icon' onClick={this.handleClick}>
+              <i href="!#" class='fa fa-bars' ></i>
             </a>
           </div>
 
