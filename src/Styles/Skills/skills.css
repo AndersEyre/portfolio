@@ -94,8 +94,8 @@ body {
      object-fit: cover;
 }
 
-.about-section #resume p {
-  padding: 10px 40px 10px 40px;
+.about-section #resume {
+  padding: 13px 40px 13px 40px;
 }
 
 .greeting {
@@ -211,8 +211,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-height: 300px;
-  max-width: 350px;
+  text-align: left;
+  max-height: 400px;
+  max-width: 400px;
   min-height: 300px;
   min-width: 350px;
   margin: 20px 20px;
@@ -310,13 +311,16 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
+  .skill-set {
+    overflow: hidden;
+  }
   .skill-set li {
     padding: 0px;
   }
   .skill-set {
     min-height: 250px;
     min-width: 300px;
-    margin: 40px 0px;
+    margin: 25px 0px;
   }
 }
 /*# sourceMappingURL=skills.css.map */

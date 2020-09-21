@@ -94,8 +94,8 @@ body {
      object-fit: cover;
 }
 
-.about-section #resume p {
-  padding: 10px 40px 10px 40px;
+.about-section #resume {
+  padding: 13px 40px 13px 40px;
 }
 
 .greeting {
@@ -205,6 +205,7 @@ footer {
 
 footer h1 {
   letter-spacing: 4px;
+  font-size: 70%;
 }
 
 footer p {
