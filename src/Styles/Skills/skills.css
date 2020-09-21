@@ -94,6 +94,10 @@ body {
      object-fit: cover;
 }
 
+.about-section #resume p {
+  padding: 10px 40px 10px 40px;
+}
+
 .greeting {
   position: relative;
   height: 100%;
@@ -126,6 +130,7 @@ body {
   letter-spacing: 2px;
   font-size: 20px;
   line-height: 35px;
+  max-width: 650px;
   font-family: 'Neucha', cursive;
 }
 
