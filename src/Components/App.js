@@ -7,9 +7,9 @@ import { Skills } from './Skills';
 import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
-import ProjectImg1 from '../Styles/App/Images/Jammming.png';
+import ProjectImg1 from '../Styles/App/Images/Jammming.jpg';
 import ProjectImg2 from '../Styles/App/Images/Ravenous.png';
-import ProjectImg3 from '../Styles/App/Images/expresso-screenshot.png'
+import ProjectImg3 from '../Styles/App/Images/expresso-screenshot.jpg'
 
 class App extends React.Component {
   constructor(props){
