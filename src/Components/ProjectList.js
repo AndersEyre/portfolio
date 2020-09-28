@@ -30,7 +30,7 @@ export class ProjectList extends React.Component {
                 <div className="project-list" >
                     {
                         this.props.projects.map(project => {
-                            return <Project key={project.id} project={project} />
+                            return <Project key={project.id} project={project}/>
                         })
                     }
                 </div>
