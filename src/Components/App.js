@@ -8,7 +8,7 @@ import '../Styles/App/App.css';
 
 import Pdf from '../Styles/App/Resume.pdf';
 import ProjectImg1 from '../Styles/App/Images/Jammming.jpg';
-import ProjectImg2 from '../Styles/App/Images/Ravenous.png';
+import ProjectImg2 from '../Styles/App/Images/Ravenous--resized.jpg';
 import ProjectImg3 from '../Styles/App/Images/expresso-screenshot.jpg'
 
 class App extends React.Component {
@@ -60,7 +60,7 @@ class App extends React.Component {
         <Nav/>
         <div className='about-section' id='about'>  
           <div className='about-image'>
-            <img src={require('../Styles/App/Images/Stockholm-small.jpg')} alt='background'/>
+            <img src={require('../Styles/App/Images/Stockholm-resized (1).jpg')} alt='background'/>
           </div>
           <div className='greeting'>
             <h1>Hi Im Anders.</h1>
