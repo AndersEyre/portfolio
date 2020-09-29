@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e6e088dc5bfe13fbbef915a9de8130c",
+    "revision": "807b6d5f35515f7f3d802108e65e7597",
     "url": "/index.html"
   },
   {
-    "revision": "96dd0c0597c0a6b54f20",
+    "revision": "645e71aa90a40a8e1069",
     "url": "/static/css/main.9a5d0e0e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5ab46e9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96dd0c0597c0a6b54f20",
-    "url": "/static/js/main.68627c92.chunk.js"
+    "revision": "645e71aa90a40a8e1069",
+    "url": "/static/js/main.23116937.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Jammming.24c7f696.jpg"
   },
   {
-    "revision": "ea2e37a78383eb840b88f163e85531a3",
-    "url": "/static/media/Ravenous.ea2e37a7.png"
+    "revision": "e6b37269bd8c9a1782e69df924da571d",
+    "url": "/static/media/Ravenous--resized.e6b37269.jpg"
   },
   {
     "revision": "9276634c06792b3158f8a573cd0ecdac",
     "url": "/static/media/Resume.9276634c.pdf"
   },
   {
-    "revision": "45ff7b259978d3c21d1a30ddb0a8324e",
-    "url": "/static/media/Stockholm-small.45ff7b25.jpg"
+    "revision": "3137671b9f9467b9c198b227e09ea141",
+    "url": "/static/media/Stockholm-resized (1).3137671b.jpg"
   },
   {
     "revision": "4649f629f9a9de1f498578c99866edaf",
